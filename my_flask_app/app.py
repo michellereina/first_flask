@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-app = Flask(name)
+app = Flask(__name__)
 
 books = [
     {"id": 1, "title": "1984", "author": "George Orwell"},
